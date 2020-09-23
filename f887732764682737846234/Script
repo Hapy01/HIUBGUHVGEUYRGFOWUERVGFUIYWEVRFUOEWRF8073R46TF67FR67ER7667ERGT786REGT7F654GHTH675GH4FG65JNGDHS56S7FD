@@ -84,7 +84,7 @@ jump.Text = "Jump +"
 jump.TextColor3 = Color3.fromRGB(0, 0, 0)
 jump.TextSize = 14.000
 jump.MouseButton1Down:connect(function()
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = 45
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
 end)
 
 btools.Name = "btools"

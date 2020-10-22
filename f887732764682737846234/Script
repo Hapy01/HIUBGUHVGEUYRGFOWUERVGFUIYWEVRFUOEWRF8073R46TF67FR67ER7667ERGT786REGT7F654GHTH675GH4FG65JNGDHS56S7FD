@@ -558,7 +558,7 @@ jump_2.Text = "Jump-"
 jump_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 jump_2.TextSize = 14.000
 jump_2.MouseButton1Down:connect(function()
-game.Players.LocalPlayer.Character.Humanoid.JumpPower = 16
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 end)
 
 speed_2.Name = "speed-"

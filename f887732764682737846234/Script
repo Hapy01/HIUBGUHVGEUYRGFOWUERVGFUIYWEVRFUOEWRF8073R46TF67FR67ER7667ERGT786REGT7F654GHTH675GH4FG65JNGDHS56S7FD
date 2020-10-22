@@ -1,4 +1,4 @@
---no snooping
+-- No Snooping
 
 -- Instances:
 
@@ -145,26 +145,26 @@ open.TextWrapped = true
 
 -- Scripts:
 
-local function MSFECGH_fake_script() -- close.LocalScript 
+local function NNMKI_fake_script() -- close.LocalScript 
 	local script = Instance.new('LocalScript', close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
-
+	
 end
-coroutine.wrap(MSFECGH_fake_script)()
-local function CIQYYY_fake_script() -- open.LocalScript 
+coroutine.wrap(NNMKI_fake_script)()
+local function IIFSDU_fake_script() -- open.LocalScript 
 	local script = Instance.new('LocalScript', open)
 
 	local frame = script.Parent.Parent.Frame  -- change “Test” to the name of the frane
 	local open = false
-
+	
 	script.Parent.MouseButton1Click:Connect(function()
 		if frame.Visible == false then
 			frame.Visible = true
 		end
 	end)
-
+	
 end
-coroutine.wrap(CIQYYY_fake_script)()
+coroutine.wrap(IIFSDU_fake_script)()
